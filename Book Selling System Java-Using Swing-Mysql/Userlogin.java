@@ -127,7 +127,7 @@ public class Userlogin extends JFrame {
 				String ustr=textField.getText();
 				String pstr=passwordField.getText();
 				
-				/*		try{
+		try{
 					//	String drivername="com.microsoft.sqlserver.jdbc.SQLServerDriver";
 					//	Class.forName("com.mysql.jdbc.Driver");
 						Class.forName("com.mysql.cj.jdbc.Driver");
@@ -159,8 +159,8 @@ public class Userlogin extends JFrame {
 					catch(Exception f)
 					{
 						System.out.println(f.getMessage());
-					}*/
-				/**	for(i=0;i<2;i++)
+					}
+					for(i=0;i<2;i++)
 				{
 					
 					if(pass[i].equals(ustr))
@@ -197,7 +197,7 @@ public class Userlogin extends JFrame {
 				{
 					JOptionPane.showMessageDialog(btnNewButton, "Wrong Username & Password");
 				}
-			/*	try
+				try
 				{
 					String drivername="com.microsoft.sqlserver.jdbc.SQLServerDriver";//driver name
 					Class.forName(drivername);
@@ -224,10 +224,10 @@ public class Userlogin extends JFrame {
 				catch(Exception e1)
 				{
 					System.out.println(e1);
-				}*.
+				}
 				
 				
-				/*try{
+				try{
 					Class.forName("oracle.jdbc.driver.OracleDriver");
 					Connection con=(Connection) DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","soumya","1234");
 					String query="select * from tlogin where user_name='"+ustr+"' and password='"+pstr+"'";
@@ -242,7 +242,7 @@ public class Userlogin extends JFrame {
 				catch(Exception f)
 				{
 					System.out.println(f);
-				}		*/	
+				}			
 			}
 		});
 	
